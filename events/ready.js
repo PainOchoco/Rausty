@@ -8,6 +8,8 @@ module.exports = async (bot, message) => {
   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝   ╚═╝      ╚═╝  
   `);
   // Activities
-  bot.user.setActivity(`reboot 🔄`, { type: "Playing" });
-  bot.user.setActivity(`by PainOchoco`, { type: "Watching" });
+  bot.user.setActivity(`reboot 🔄`, { type: "PLAYING" });
+  bot.user.setActivity("by PainOchoco", {
+    type: "PLAYING",
+  });
 };

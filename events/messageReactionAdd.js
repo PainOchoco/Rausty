@@ -1,5 +1,5 @@
 module.exports = async (bot, reaction, user) => {
-  if (user == bot.user) return;
+  if (user == bot.user || user.bot) return;
 
   const rChannel = reaction.message.guild.channels.cache.get(
     "721371713836810311"

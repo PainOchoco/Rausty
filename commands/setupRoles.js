@@ -40,6 +40,6 @@ module.exports.run = async (bot, message, args) => {
 module.exports.help = {
   name: "setupRoles",
   aliases: [],
-  dsc: "Affiche les information",
+  dsc: "Envoie le message de role-reaction",
   stx: "setupRoles",
 };

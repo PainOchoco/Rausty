@@ -6,7 +6,7 @@ module.exports.run = async (bot, message, args) => {
     .setTitle("Liens 📎")
     .setColor(c.color)
     .setDescription(
-      "▸ [Youtube](https://www.youtube.com/channel/UCEsD1VlJSCNyHcEfRS5X22A)\n▸ [Discord](https://discord.gg/VuhcNmP)\n▸ [Mail](mailto:New.Raustone@gmail.com)"
+      "▸ [Youtube](https://www.youtube.com/channel/UCEsD1VlJSCNyHcEfRS5X22A)\n▸ [Discord](https://discord.gg/VuhcNmP)\n▸ Mail New.Raustone@gmail.com"
     )
     .setFooter(
       bot.user.username + " • " + message.content,
@@ -18,7 +18,7 @@ module.exports.run = async (bot, message, args) => {
 
 module.exports.help = {
   name: "info",
-  aliases: ["lien", "liens"],
-  dsc: "Affiche les information",
+  aliases: ["lien", "liens", "links"],
+  dsc: "Affiche les liens",
   stx: "info",
 };

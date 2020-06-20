@@ -35,5 +35,5 @@ exports.help = {
   name: "bot",
   aliases: ["stat", "stats"],
   dsc: "Afficher les informations du bot",
-  stx: "info",
+  stx: "bot",
 };

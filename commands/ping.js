@@ -8,7 +8,7 @@ module.exports.run = async (bot, message, args) => {
     .setColor(c.color)
     .setDescription(
       `⏱ Latence: \`${msg.createdTimestamp - message.createdTimestamp}\`ms\n
-      📡 API : \`${Math.round(bot.ping)}\`ms`
+      📡 API : \`${Math.round(bot.ws.ping)}\`ms`
     )
     .setFooter(
       bot.user.username + " • " + message.content,
